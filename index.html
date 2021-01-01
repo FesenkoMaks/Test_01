@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PROdengi</title>
+  </head>
+  <body>
+    <!-- FIST BLOCK -->
+
+    <div class="first-block" id="first">
+      <div class="container">
+        <header class="header">
+          <div class="header__icons">
+            <img src="./image/logo.png" alt="logo" />
+            <img src="./image/Ellipse_1.png" alt="logo_2" />
+          </div>
+          <div class="header__chat">
+            <img
+              class="header__chat-img"
+              src="./image/chat_icon.png"
+              alt="chat_icon"
+            />
+            <span class="header__chat-text">Индивидуальная консультация</span>
+          </div>
+        </header>
+        <div class="main">
+          <div class="main__title">Подбор Каско on-line</div>
+          <div class="main__text">
+            <div>
+              Ответьте на <span class="yellow-text">7 вопросов</span> и наш
+              сервис подберет для Вас
+            </div>
+            <div>самое выгодное предложение</div>
+          </div>
+          <div class="main__form">
+            <div class="main__form-text">
+              <span class="yellow-text">1.Марка вашего авто:</span>
+            </div>
+            <div class="main__form-select">
+              <select name="Auto" id="Auto">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Opel">Opel</option>
+                <option value="Mercedes">Mercedes</option>
+              </select>
+            </div>
+            <div class="main__form-button">
+              <a class="btn" href="#second">Рассчитать</a>
+            </div>
+          </div>
+          <div class="main__partners">
+            <span class="main__partners-item">
+              <img src="./image/icon_1.png" alt="" />
+            </span>
+            <span class="main__partners-item">
+              <img src="./image/icon_2.png" alt="" />
+            </span>
+            <span class="main__partners-item">
+              <img src="./image/icon_3.png" alt="" />
+            </span>
+            <span class="main__partners-item">
+              <img src="./image/icon_4.png" alt="" />
+            </span>
+            <span class="main__partners-item">
+              <img src="./image/icon_5.png" alt="" />
+            </span>
+            <span class="main__partners-item">
+              <img src="./image/Layer_39_copy_2.png" alt="" />
+            </span>
+          </div>
+          <div class="main__time">
+            <span class="main__time-bg">23.06.2019</span>
+            <span>Обработано заявок:<span class="yellow-text"> 984</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECOND BLOCK -->
+
+    <div class="second-block" id="second">
+      <div class="container">
+        <div class="main">
+          <div class="yellow-text main__title">2. Год выпуска автомобиля:</div>
+
+          <div class="main__count">
+            <button class="main__count-btn btn-minus">-</button>
+            <input class="main__count-input" value="2011" type="text" />
+            <button class="main__count-btn btn-plus">+</button>
+          </div>
+
+          <div class="main__time">
+            <span class="main__time-bg">23.06.2019</span>
+            <span>Обработано заявок:<span class="yellow-text"> 984</span></span>
+          </div>
+          <div class="main__count-button">
+            <a class="btn" href="#last">Далее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LAST BLOCK -->
+
+    <div class="last-block" id="last">
+      <div class="container">
+        <div class="main">
+          <div class="main__container">
+            <div class="main__title">Данные для подбора КАСКО:</div>
+
+            <div class="main__data">
+              <div class="main__data-left">
+                <ul class="main__data-list">
+                  <li>
+                    Марка вашего авто:
+                    <span class="yellow-text">Audi</span>
+                  </li>
+                  <li>
+                    Год выпуска вашего авто:
+                    <span class="yellow-text">2015</span>
+                  </li>
+                  <li>
+                    Ориентировочная стоимость:
+                    <span class="yellow-text">$12 000</span>
+                  </li>
+                  <li>
+                    Стаж вождения:
+                    <span class="yellow-text">5 лет</span>
+                  </li>
+                  <li>
+                    Страховка от угона:
+                    <span class="yellow-text">Да</span>
+                  </li>
+                  <li>
+                    Количество водителей:
+                    <span class="yellow-text">Мултидрайв</span>
+                  </li>
+                  <li>
+                    Действие КАСКО за границей:
+                    <span class="yellow-text">Да</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="main__data-right">
+                <div class="main__data-title">Подобрано:</div>
+                <div class="main__data-subtitle">
+                  <span class="yellow-text">
+                    <span class="main__data-number">3</span>
+                    оптимальных предложения
+                  </span>
+                </div>
+                <div class="main__data-partners">
+                  <span>
+                    <img src="./image/icon_1.png" alt="icon" />
+                  </span>
+                  <span>
+                    <img src="./image/icon_4.png" alt="icon" />
+                  </span>
+                  <span>
+                    <img src="./image/icon_2.png" alt="icon" />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <form class="main__data-form" action="">
+              <span class="main__data-form-item">
+                <label for="name" class="yellow-text"
+                  >Как к вам обращаться?</label
+                >
+                <input data-rule="length" type="text" placeholder="Имя" />
+              </span>
+              <span class="main__data-form-item">
+                <label for="number" class="yellow-text"
+                  >Телефон для расчета</label
+                >
+                <input
+                  data-rule="number"
+                  type="text"
+                  placeholder="+375 __ _______"
+                />
+              </span>
+              <span class="main__data-form-item">
+                <a href="#thanks" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+              </span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- THANKS BLOCK -->
+
+    <div class="thanks-block" id="thanks">
+      <div class="container">
+        <div class="main">
+          <div class="thanks__main">
+            <div class="thanks__title">Спасибо!</div>
+            <div class="thanks__subtitle">
+              <span class="yellow-text">
+                Ваша заявка отправлена, наш менеждер свяжется с Вами
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
